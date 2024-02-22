@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+
+body {
+
+    background-image: url(https://media2.giphy.com/media/OkVVUlG40FnuE/giphy.gif?cid=ecf05e47dmi1ghbse3gqm5bh1dyx6j6km5zjit3f80j2epca&ep=v1_gifs_related&rid=giphy.gif&ct=g);
+
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    background-position: center;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-bottom: 10%;
+}
+
+#calculator {
+    max-width: 360px;
+    background: url(https://cdn.pixabay.com/photo/2023/11/17/14/40/street-art-8394476_1280.jpg);
+    border-radius: 100px;
+    padding: 18px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    border: solid 2px;
+}
+
+#display {
+    width: 80%;
+    height: 60px;
+    font-size: 50px;
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 100px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(212, 21, 142);
+    border: none;
+    box-sizing: border-box;
+    border: solid 2px;
+
+
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+}
+
+button {
+    width: calc(25% - 10px);
+    height: 50px;
+    font-size: 26px;
+    margin: 10px 5px;
+    border: solid 2px;
+    float: left;
+    background-color: rgb(212, 21, 142);
+    color: rgb(0, 0, 0);
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    border-radius: 100px;
+    text-shadow: none;
+
+
+
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+}
+
+.operator {
+    color: rgb(255, 255, 255);
+    background-color: rgb(212, 21, 142);
+}
+
+#ac {
+    color: rgb(255, 255, 255);
+}
+
+.equal {
+    width: calc(50% -12px);
+    background-color: rgb(212, 21, 142);
+}
+
+button.hover {
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(.9);
+    box-shadow: 2px 2px 1px rgb(255, 255, 255);
+
+}
+
+h1 {
+    text-shadow: 2px 2px 0px white;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 47, 0);
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:;
+    margin-top: 10%;
+}
+
+h2{
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:;
+    font-size: 50px;
+}
